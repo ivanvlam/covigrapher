@@ -1,7 +1,6 @@
 from os.path import join
 
 # Archivos
-PATH_RANKING = 'ranking.txt'
 PATH_LOGO = join("frontend", "assets", "logo.png")
 PATH_GRADIENTE = join("frontend", "assets", "gradiente.gif")
 PATH_GRID = join("frontend", "assets", "grid.png")
@@ -135,47 +134,4 @@ ESTILO_CALENDARIO = '''
     border-width: 1px;
     border-color: black;
     color: black;
-'''
-
-ESTILO_LABEL_BLANCO = '''
-    background-color: white;
-    border-style: outset;
-    border-width: 3px;
-    border-color: black;
-    padding: 6px;
-'''
-
-ESTILO_BOTONES_CHICOS = '''
-    background-color: white;
-    border-style: outset;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: pink;
-    font: bold 14px;
-    min-width: 6em;
-    padding: 6px;
-'''
-
-ESTILO_LABEL_SELECCION = '''
-    background-color : rgb(213, 225, 232);
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 20px;
-    border-color: black;
-'''
-
-ESTILO_LABEL_CONTINUAR = '''
-    background-color : rgb(165, 251, 180);
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: rgb(60, 250, 1);
-'''
-
-ESTILO_LABEL_FIN = '''
-    background-color : rgb(250, 133, 120);
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: rgb(215, 19, 1);
 '''
