@@ -135,3 +135,11 @@ ESTILO_CALENDARIO = '''
     border-color: black;
     color: black;
 '''
+
+ESTILO_LABEL_SELECCION = '''
+    background-color : rgb(213, 225, 232);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: black;
+'''
