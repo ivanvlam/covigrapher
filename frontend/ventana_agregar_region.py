@@ -218,9 +218,9 @@ class VentanaAgregarRegion(QWidget):
 
     def avanzar(self):
         self.senal_avanzar.emit(self.regiones_seleccionadas)
-        filename = QFileDialog.getSaveFileName(self, 'Open file', 
-            'c:\\',"Image files (*.jpg *.png)")
-        
+        filename = QFileDialog.getSaveFileName(self, 'Save file', 
+            '',"Image files (*.jpg *.png)")
+
         self.senal_nombre.emit(filename[0])
     
     def cerrar_ventana(self):

@@ -4,6 +4,7 @@ from threading import Thread
 from matplotlib import pyplot as plt
 import pandas as pd
 from datetime import datetime
+import os
 
 class Logica(QObject):
 
@@ -104,6 +105,11 @@ class Logica(QObject):
         plt.yticks(fontsize = 14)
 
     def guardar_archivo(self, path):
-        plt.savefig(path)
+        if path not in ['.png', 'jpg']:
+            plt.savefig(path)
+
+        if os.path.exists(".png"):
+            os.remove(".png")
+
         self.senal_terminar.emit()
 
