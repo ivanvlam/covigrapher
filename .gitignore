@@ -8,4 +8,6 @@ __pycache__/
 *$py.class
 
 *.idea
-*.DS_STORE 
+*.DS_STORE
+
+build_tools/
