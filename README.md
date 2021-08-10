@@ -1,4 +1,4 @@
-# <span style="font-family:Bebas Neue; font-size:2em;">COVIGRAPHER</span>
+# <span style="font-family:Bebas Neue; font-size:2em;">COVIGRAPHER :microbe: </span>
 
 ## Indice
 - [Introducción](#Introducción)
@@ -10,7 +10,7 @@
 
 ## Introducción
 
-Ante la emergencia sanitaria actual, surge la necesidad de visualizar la gran cantidad de datos recopilados día a día. Ante esta necesidad, nace covigrapher, que permite generar tus propios gráficos estadísticos del COVID-19 en Chile con varias opciones de personalización, desde el periodo de visualización hasta opciones gráficas, todo mediante una interfaz amigable con el usuario desarrollada con *PyQt5*.
+Ante la emergencia sanitaria actual, surge la necesidad de visualizar la gran cantidad de datos recopilados día a día. A raíz de lo anterior, nace *covigrapher*, que permite generar tus propios gráficos estadísticos del COVID-19 en Chile con varias opciones de personalización, desde el periodo de visualización hasta opciones gráficas propias del gráfico, todo mediante una interfaz amigable con el usuario desarrollada con *PyQt5*.
 
 ---
 
@@ -23,15 +23,15 @@ Para generar un gráfico se debe ejecutar el programa `main.py` y seguir los sig
 * Seleccionar un indicador estadístico
 * Seleccionar si se quiere visualizar la información por 100.000 habitantes o en su totalidad, la presencia de grilla y la utilización de promedio móvil, para este último se debe agregar el tamaño de la ventana
 * Agregar región por región, cada una con el color de preferencia del usuario
-* Finalizar el gráfico y guargar como archivo `.jpg` o `.png` en el directorio deseado
+* Finalizar el gráfico y guardar como archivo `.jpg` o `.png` en el directorio deseado
 
 ---
 
 ## Por hacer
-Lo que falta implementar en covigrapher es:
+Lo que falta implementar en *covigrapher* es:
 
 * Ventana Final que permita al usuario generar otro gráfico
-* Opción de generar gráficos predeterminados
+* Opción de generar gráficos predeterminados en Ventana de Inicio
 * `covigrapher.exe`
 
 ---
