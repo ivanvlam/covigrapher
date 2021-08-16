@@ -32,6 +32,7 @@ Lo que falta implementar en *covigrapher* es:
 
 * Ventana Final que permita al usuario generar otro gráfico
 * Opción de generar gráficos predeterminados en Ventana de Inicio
+* Más opciones de indicadores estadísticos
 * `covigrapher.exe`
 
 ---
