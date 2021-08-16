@@ -59,7 +59,8 @@ class VentanaPeriodo(QWidget):
         
         self.calendario = QCalendarWidget(self)
         self.calendario.setGridVisible(True)
-        self.calendario.move(p.VENTANA_ANCHO * 33 / 100, p.VENTANA_ALTO * 15 / 100)
+        self.calendario.move(p.VENTANA_ANCHO * 33 / 100, p.VENTANA_ALTO * 14.5 / 100)
+        self.calendario.resize(p.VENTANA_ANCHO * 60 / 100, p.VENTANA_ALTO * 33 / 100)
         self.calendario.setMinimumDate(self.fecha_inicio)
         self.calendario.setMaximumDate(self.hoy.addDays(-7))
         self.calendario.setStyleSheet(p.ESTILO_CALENDARIO)
